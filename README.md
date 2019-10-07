@@ -1,5 +1,5 @@
 ---
-title: 'Project documentation template'
+title: 'KP Optional Coding Challenge'
 disqus: hackmd
 ---
 
@@ -25,10 +25,10 @@ Libraries used
 - Bootstrap 4
 - CSS/HTML Boiler plate
 
-> Read more about mermaid here: https://nodejs.org/api/synopsis.html
+> Read more about node here: https://nodejs.org/api/synopsis.html
 
 ## Rationale
-The project is my take on learning Java Script, and thus I have utilized a boiler plate from various online resources. I wanted to make this challenge about also learning a new skill, as I have never even made a "Hello World" for any of these frameworks before.
+The project is my take on learning Java Script, and thus I have utilized a [boiler plate](https://www.thatsoftwaredude.com/fullsource/6196-card-version1/fullsource.zip) and other online resources. I wanted to make this challenge about also learning a new skill, as I have never even made a "Hello World" for any of these frameworks before.
 
 I chose to show all the cards that are being handled and instead focus simply on making it look presentable enough, as I often find a lot of chances to do CLI games, but not many to learn skills heavily use in industry.
 
