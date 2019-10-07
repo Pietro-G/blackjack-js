@@ -1,0 +1,23 @@
+{
+  "name": "kpblackjack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pietro-G/kpBlackjack.git"
+  },
+  "author": "Pietro-G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pietro-G/kpBlackjack/issues"
+  },
+  "homepage": "https://github.com/Pietro-G/kpBlackjack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
