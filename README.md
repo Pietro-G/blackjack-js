@@ -25,7 +25,7 @@ Libraries used
 - Bootstrap 4
 - CSS/HTML Boiler plate
 
-> Read more about mermaid here: http://knsv.github.io/mermaid/
+> Read more about mermaid here: https://nodejs.org/api/synopsis.html
 
 ## Rationale
 The project is my take on learning Java Script, and thus I have utilized a boiler plate from various online resources. I wanted to make this challenge about also learning a new skill, as I have never even made a "Hello World" for any of these frameworks before.
