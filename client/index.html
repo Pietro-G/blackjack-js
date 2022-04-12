@@ -12,52 +12,55 @@
 
 </head>
 <div class="jumbotron text-center">
-        <h1>KP Coding Challenge 2020</h1>
-        <p>Try out my take on BlackJack: </p>
-      </div>
+        <h1>Speak_ 2022 Coding Project</h1>
+        <p>Try out my first take on implementing BlackJack in JS - click 'Start Game' to play!</p>
+</div>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-0">
-          </div>
-          <div class="col-sm-10">
-            <h3></h3>
-                <div class="game">
-                    <h3>Blackjack</h3>
-            
-                    <div class="game-body">
-                        <div class="game-options">
-                            <input type="button" id="btnStart" class="btn btn-info" value="Start Game" onclick="startGame()">
-                            <input type="button" class="btn btn-primary" value="Hit Me" onclick="hitMe()">
-                            <input type="button" class="btn btn-secondary" value="Stay" onclick="stay()">
-                        </div>
-                    
-                            
-                    
-                            <div id="deck" class="deck">
-                                <div id="deckcount">52</div>
-                            </div>
-                    
-                            <div id="players" class="players">
-                            </div>
-                            <div class="status" id="status"></div>
-                            <div class="clear"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-0">
+      </div>
+      <div class="col-sm-10">
+        <h3></h3>
+            <div class="game">
+                <h3>Blackjack</h3>
+        
+                <div class="game-body">
+                    <div class="game-options">
+                        <input type="button" id="btnStart" class="btn btn-info" value="Start Game" onclick="startGame()">
+                        <input type="button" class="btn btn-primary" value="Hit Me" onclick="hitMe()">
+                        <input type="button" class="btn btn-secondary" value="Stay" onclick="stay()">
                     </div>
+                        <div id="deck" class="deck">
+                            <div id="deckcount">52</div>
+                        </div>
+                
+                        <div id="players" class="players">
+                        </div>
+                        <div class="status" id="status"></div>
+                        <div class="clear"></div>
                 </div>
             </div>
-          <div class="col-sm-2">
-            <h3>Rationale: </h3>
-            <p>Blackjack has been an iconic game for me growing up, regardless of where I may be.
-                I have decided to go by the rules that I have always used, therefore the computer can be thought of as the dealer.
-                If the player manages to get 21, he gets a notification. The computer's nash equilibrium is to minimize the loses,
-                even if the current version only shows two players by default, I have made this project with scalability in mind.
-                I decided to challenge myself, and utilize Java script for the first time in my career to learn something new while
-                pursuing this challenge. Hope whoever sees this enjoys a couple rounds of good BlackJack. - Pietro
-            </p>
-          </div>
         </div>
+      <div class="col-sm-2">
+      </p>
       </div>
-    <body>
-            <script src="src/game.js"></script>
-    </body>
+    </div>
+  </div>
+
+  <h3>Rules: </h3>
+        <p>1. This implementation of BlackJack emulates a single player against a computer.</p>
+        <p></p>
+        <p>2. The player should click "Hit Me" in order to strategically get as close to 21 in points as possible.</p>
+        <p></p>
+        <p>3. Ace is worth 1 or 11, J,Q,K are worth 10 points, every other card is worth its face value.</p>
+        <p></p>
+        <p>4. This version of BlackJack doesn't consider 12 to equate to a score of 20 1/2.</p>
+        <p></p>
+        <p>5. The computer's AI has been programmed to emulate a casino dealer where it is simply trying to beat the player.</p>
+        <p></p>
+        <p>6. In this version of the game - both cards are visible to everyone (on the player's and dealer's end</p>   
+<body>
+        <script src="src/game.js"></script>
+</body>
 </html>
