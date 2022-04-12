@@ -8,7 +8,7 @@ disqus: hackmd
 [TOC]
 
 ## Manual (Running the project)
-![](https://imgur.com/a/2qf8j7N)
+![](https://i.imgur.com/BP7ABo0.png)
 
 1. `git clone git@github.com:Pietro-G/blackjack-js.git`
 2. `sudo apt install npm + express` (If not already installed, else skip this step)
