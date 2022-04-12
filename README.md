@@ -7,8 +7,8 @@ disqus: hackmd
 
 [TOC]
 
-## Instructions
-![](https://imgur.com/vnALLao)
+## Manual (Running the project)
+![](https://i.imgur.com/2qf8j7N)
 
 1. `git clone git@github.com:Pietro-G/blackjack-js.git`
 2. `sudo apt install npm + express` (If not already installed, else skip this step)
@@ -28,5 +28,5 @@ Libraries used
 
 > Read more about node here: https://nodejs.org/api/synopsis.html
 
-## Misc
+## Rationale
 The project is my take on of my first takes learning Java Script, it was made using `node`, `express`, `bootstrap` and vanilla `javascript`.
