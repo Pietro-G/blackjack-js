@@ -7,13 +7,13 @@ disqus: hackmd
 
 [TOC]
 
-## Manual (Running the project)
-![](https://i.imgur.com/THOwX7f.png)
+## Instructions
+![](https://imgur.com/vnALLao)
 
-1. `git clone git@github.com:Pietro-G/kpBlackjack.git`
-2. `sudo apt install npm + express`
-3. `npm i`
-4. `npm run serve`
+1. `git clone git@github.com:Pietro-G/blackjack-js.git`
+2. `sudo apt install npm + express` (If not already installed, else skip this step)
+3. `npm install`
+4. `npm start`
 5. Open browser and connect to `localhost/127.0.0.1:3000`
 6. The following screen should come up
 
@@ -28,5 +28,5 @@ Libraries used
 
 > Read more about node here: https://nodejs.org/api/synopsis.html
 
-## Rationale
+## Misc
 The project is my take on of my first takes learning Java Script, it was made using `node`, `express`, `bootstrap` and vanilla `javascript`.
